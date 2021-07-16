@@ -1,0 +1,5 @@
+{
+    "baseURL2": "http://wyy.sxgesoft.cn:84/",
+    "baseURL1": "http://localhost:5001/",
+    "baseURL": "http://hzry.sxgesoft.cn:5101/api/"
+}

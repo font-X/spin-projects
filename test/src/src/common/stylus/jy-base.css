@@ -1,0 +1,111 @@
+html,body,#app{
+    height: 100%;
+}
+
+body,ul{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+li{
+    list-style: none;
+}
+
+/* 隐藏编辑表格证书提示 */
+#hot-display-license-info{
+    display: none
+}
+
+/* element样式扩展 */
+/* 减小element中input的padding */
+
+
+.sup-mini{
+    height: 24px;
+    line-height: 24px;
+}
+
+.sup-mini input.el-input__inner, .sup-mini.el-range-editor--mini.el-input__inner{
+    padding:0 5px;
+    height: 24px;
+    line-height: 24px;
+}
+.sup-mini .el-input--mini .el-input__icon{
+    line-height: 24px;
+}
+.sup-mini.el-date-editor--date input.el-input__inner{
+    padding-left: 25px;
+}
+.sup-mini.el-date-editor.el-input, .sup-mini.el-date-editor.el-input__inner, .sup-mini.el-select{
+    width:100%;
+}
+.sup-mini .el-range-editor--mini .el-range-separator{
+    line-height: 16px;
+}
+.el-input--mini.sup-mini .el-input__icon, .el-range-editor--mini.sup-mini .el-input__icon{
+    height: 24px;
+    line-height: 24px;
+}
+/* vex-table样式扩展 */
+.vxe-table.size--mini .vxe-body--column:not(.col--ellipsis), .vxe-table.size--mini .vxe-footer--column:not(.col--ellipsis), .vxe-table.size--mini .vxe-header--column:not(.col--ellipsis){
+    padding: 0px !important;
+}
+
+
+.vxe-table.size--mini .vxe-body--column.col--ellipsis, .vxe-table.size--mini .vxe-footer--column.col--ellipsis, .vxe-table.size--mini .vxe-header--column.col--ellipsis, .vxe-table.vxe-editable.size--mini .vxe-body--column{
+    height: 24px !important;
+}
+.jy_wrapper  .el-collapse-item__header{
+    height: 30px
+}
+
+
+/* 模态框样式扩展 */
+border
+.jy_wrapper .el-dialog__header{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+.jy_wrapper .el-dialog__body{
+    padding: 12px 20px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.jy_wrapper .el-dialog__title{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+}
+
+.jy_wrapper  .el-dialog__headerbtn{
+    top: 13px;
+    right: 10px;
+}
+.jy_wrapper .el-dialog__footer{
+    padding-bottom: 10px;
+}
+
+.sup-mini-label{
+    height:24px;
+    line-height:24px;
+    text-align: right;
+    padding-right: 2px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.query-list, .button-list, .data-list{
+    padding: 3px;
+}
+.query-list .el-col{
+    margin:2px 0;
+}

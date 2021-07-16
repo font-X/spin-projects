@@ -1,0 +1,51 @@
+/* 生产平板样式 */
+body, html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family:'MicrosoftYaHei';
+}
+.el-main {
+   
+}
+.el-row {
+    height: 100%;
+}
+/* 左测 */
+.aside1{
+    background-color: #263CAB;
+    font-family:'MicrosoftYaHei';
+}
+
+.leftdiv{
+    text-align: center;
+    margin-top: 106px;
+}
+.leftdiv .labName{
+    color: #fff;
+    font-size: 18px;
+}
+.labNum{
+    color: #fff;
+    font-size: 24px;
+    float: left;
+}
+.labNumtip{
+    color: #BFCAF5;
+    font-size: 12px;
+    float: left;
+}
+.imgrt{
+  margin-left: 20px;
+}
+
+/* 左测齿轮图片 */
+.imgcl{
+    display: flex;
+    position: absolute; 
+    bottom:0px;
+    margin-left: -126px;
+    width: 307px;
+    height: 203px;
+}
